@@ -1,0 +1,11 @@
+syntax = "proto3";
+package pb;
+option go_package = "../pb";
+
+// C->S 心跳请求
+message c2s_heartbeat {}
+
+// S->C 心跳请求返回
+message s2c_heartbeat {
+  int64 serverTime = 1;
+}

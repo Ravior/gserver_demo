@@ -1,0 +1,55 @@
+{
+  "WsServer": {
+    "IP":"127.0.0.1",
+    "Port":10001,
+    "MaxConn": 2000,
+    "MaxPacketSize": 1024,
+    "WorkerPoolSize":10,
+    "MaxMsgChanLen":128,
+    "CertFile": "",
+    "KeyFile": "",
+    "ConsolePort": 7771,
+    "ProfilePath": ""
+  },
+  "Master": {
+    "RemoteHost": "127.0.0.1",
+    "RemoteTcpPort": 8001
+  },
+  "DataBase":{
+    "default": {
+      "Host": "127.0.0.1",
+      "Port": 3306,
+      "User": "root",
+      "Password": "Devops2020",
+      "DbName": "jzfyl_dev",
+      "Prefix": "jz_",
+      "ShowLog": true
+    }
+  },
+  "Log":{
+    "default":{
+      "Level":"debug",
+      "StackLevel":"errors",
+      "EnableWriteFile":true,
+      "EnableConsole":true,
+      "FilePath":"logs/game_server/game.log",
+      "FileFormat":"%Y-%m-%d.log",
+      "MaxAge":7,
+      "RotationTime":24,
+      "TimeFormat":"2006-01-02 15:04:05.000",
+      "PrintCaller":true
+    },
+    "item":{
+      "Level":"info",
+      "StackLevel":"errors",
+      "EnableWriteFile":true,
+      "EnableConsole":true,
+      "FilePath":"logs/item_log/item.log",
+      "FileFormat":"%Y-%m-%d_%H.log",
+      "MaxAge":72,
+      "RotationTime":1,
+      "TimeFormat":"2006-01-02 15:04:05.000",
+      "PrintCaller":false
+    }
+  }
+}

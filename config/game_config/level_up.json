@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "exp": 50,
+    "addexp": 500,
+    "addgold": 5357,
+    "costyuanbao": 100
+  },
+  {
+    "id": 2,
+    "exp": 88,
+    "addexp": 819,
+    "addgold": 5587,
+    "costyuanbao": 100
+  },
+  {
+    "id": 3,
+    "exp": 199,
+    "addexp": 1712,
+    "addgold": 5817,
+    "costyuanbao": 100
+  }
+]
